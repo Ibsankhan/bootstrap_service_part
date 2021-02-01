@@ -1,0 +1,220 @@
+.ml-auto{
+    margin-left: auto !important;
+}
+.header .logo{
+    height:60px;
+}
+.header .navbar ul li a{
+    position: relative;
+    margin-right: 10px;
+    color: #ffffff !important;
+}
+.header .navbar ul li a::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    top:100%;
+    transform:translateX(-50%);
+    left:50%;
+    background-color: red;
+    transition: 0.4s;
+    opacity: 0;
+}
+.header .navbar ul li a:hover::after{
+width: 100%;
+opacity: 1;
+}
+.header .content{
+    color:#ffffff;
+    width:400px;
+    margin:80px auto;
+    font-family: 'Nunito', sans-serif;
+   padding-bottom:80px;
+}
+
+
+.header .content h1{
+font-size:40px;
+font-weight: 600;
+margin-bottom: 30px;
+}
+.header .content p{
+    font-size:16px;
+    font-weight: 600;
+    }
+
+
+
+.portfolo span{
+    color: #d1d1d1;
+    margin-right:7%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.portfolo span:last-child{
+    margin-right: 0;
+}   
+
+
+.portfolo span:hover{
+    color:#1b5ac4;
+}
+
+
+
+/*gallary part start*/
+
+.gallary .col4{
+    width: 365px;
+    border-radius: 7px;
+}
+.gallary .col8{
+    width: 740px;
+    border-radius: 7px;
+}
+.gallary .col6{
+    width: 550px;
+    border-radius: 7px;
+}
+
+
+/*==========service part start==========*/
+.service{
+    margin-bottom: 100px;
+}
+.service .row1{
+    margin-bottom:120px !important;
+    margin-top: 60px;
+}
+.service h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color:#000000;
+    margin-top: 20px;
+}
+.service p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color:#000000;
+    line-height: 18px;
+    margin-top: 20px;
+}
+.service a{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    line-height: 18px;
+    transition: 0.4s;
+    margin-top: 20px;
+}
+.service a:hover{
+    font-size: 14px;
+    text-decoration: underline #1d59bf;
+    color: #fbc02d;
+}
+
+
+    /* ========= footer part start ========= */
+    .footer{
+        background-color: #003ca0;
+        padding-top: 60px;
+        color:#ffffff;
+        padding-bottom: 60px;
+        position: relative;
+    }
+
+    .footer .absolute{
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        border:8px solid #003ca0;
+        background-color: #fbc02d;
+        border-radius: 50%;
+       bottom:101%;
+        left: 50%;
+        transform: translate(-50% , 50%);
+    }
+    .footer h4{
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom:2px;
+    }
+    .footer h3{
+        font-family: 'Nunito', sans-serif;
+        font-size: 22px;
+        font-weight: 700; 
+    }
+
+    .footer ul li{
+        list-style-type: none;
+       
+    }
+
+
+    .footer ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        transition: 0.35s;
+
+    }
+    
+    .footer ul li a:hover{
+        color:#fbc02d;
+    } 
+    .footer p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .footer a{
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    .footer a i{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: #4b8fff;
+      color: #ffffff;
+      text-align: center;
+      line-height: 50px;
+      font-size: 22px;
+      transition: 0.4s;
+    }
+    
+    .footer a i:hover{
+     background-color: #ffffff;
+     color: #003ca0;
+    }
+    .footer .logo{
+        height: 60px;
+    }  
+    .copyright{
+        background-color: #002b71;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .copyright p{
+        color: #ffffff;
+    }
+    .copyright p span a{
+        text-decoration: none;
+        color:#ffffff;
+    }
+    .copyright p span a:hover{
+        color:#fbc02d;
+        
+    }
